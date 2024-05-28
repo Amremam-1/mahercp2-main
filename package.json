@@ -10,6 +10,7 @@
   "dependencies": {
     "@types/react-responsive": "^8.0.8",
     "axios": "^1.6.7",
+    "classnames": "^2.5.1",
     "formik": "^2.4.5",
     "next": "^14.2.3",
     "next-intl": "^3.13.0",
