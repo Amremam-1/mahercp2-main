@@ -15,7 +15,7 @@ export default function Poster(params) {
       id: "01",
       link: "/",
       titleAr: "الرئيسية/",
-      titleEn: "",
+      titleEn: "Main /",
     },
     {
       id: "02",

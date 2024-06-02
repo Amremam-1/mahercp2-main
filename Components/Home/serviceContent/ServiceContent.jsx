@@ -75,7 +75,7 @@ const ServiceContent = () => {
   const locale = useLocale()
 
   return (
-    <div className="dark:bg-dark secContainer">
+    <div className="dark:bg-dark secContainer bg-white">
       <div className={styles.container}>
         <div className="conTitle">
           <span>{t("serviceContent-01")}</span>

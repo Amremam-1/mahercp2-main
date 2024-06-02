@@ -15,7 +15,7 @@ export default function Marketing(params) {
       id: "01",
       link: "/",
       titleAr: "الرئيسية/",
-      titleEn: "main /",
+      titleEn: "Main /",
     },
     {
       id: "02",

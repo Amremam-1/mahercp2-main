@@ -3,6 +3,7 @@ import Image from "next/image"
 import styles from "./styles.module.scss"
 import Link from "next/link"
 import { IoAppsOutline } from "react-icons/io5"
+import { GrLanguage } from "react-icons/gr"
 import { useState, useEffect } from "react"
 import DropMenu from "./DropMenu"
 import { VscMenu } from "react-icons/vsc"
@@ -10,6 +11,7 @@ import NavBar from "../navBar/NavBar"
 import ThemeToggle from "../Theme/ThemeToggle"
 import { useLocalization } from "@/hooks/useLocalization"
 import classNames from "classnames"
+import Translate from "../translate/Translate"
 
 const navList = [
   {
@@ -124,7 +126,9 @@ const Header = () => {
 
   return (
     <>
-      <header className={`${styles.header} ${scrollHeader}`}>
+      <header
+        className={`${styles.header} ${scrollHeader}`}
+      >
         <div className={`${styles.container} secContainer`}>
           <div className={styles.logo}>
             <Image
@@ -163,12 +167,9 @@ const Header = () => {
             </div>
           </nav>
           <div className={styles.btns}>
+            <Translate />
             <ThemeToggle />
-            {/* <div className={styles.modes}>
-              <button className={styles.lightModeBtn}>
-                <MdOutlineLightMode className={styles.lightModeIcon} />
-              </button>
-            </div> */}
+
             <div className={styles.apps} onClick={handleDropApps}>
               <button className={`${styles.appsBtn}`}>
                 <IoAppsOutline

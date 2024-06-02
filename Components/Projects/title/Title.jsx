@@ -100,7 +100,7 @@ const Title = () => {
 
   const { t, locale } = useLocalization()
   return (
-    <div className="secContainer">
+    <div className="secContainer bg-white dark:bg-dark">
       <div className={styles.container}>
         <div className={`${styles.Title} conTitle`}>
           <h2 className=" dark:text-white">{t("info-06")}</h2>

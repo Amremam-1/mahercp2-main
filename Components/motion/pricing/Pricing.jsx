@@ -6,7 +6,7 @@ const Pricing = () => {
   const { t } = useLocalization()
   
   return (
-    <section className={`${styles.section} color89  dark:bg-dark`}>
+    <section className={`${styles.section} color89  dark:bg-dark bg-white`}>
       <div className="secContainer">
         <div className={styles.container}>
           <div className={`${styles.Title} conTitle`}>

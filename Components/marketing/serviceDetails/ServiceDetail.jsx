@@ -133,7 +133,7 @@ const ServiceDetail = () => {
   }
 
   return (
-    <div className="secContainer">
+    <div className="secContainer bg-white dark:bg-black">
       <div className={styles.container}>
         <div className={styles.uk_grid}>
           <div className={styles.uk_sidebar}>

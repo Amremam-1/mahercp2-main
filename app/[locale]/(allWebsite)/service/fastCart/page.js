@@ -18,7 +18,7 @@ export default function FastCart(params) {
       id: "01",
       link: "/",
       titleAr: "الرئيسية  /",
-      titleEn: "main  /",
+      titleEn: "Main  /",
     },
     {
       id: "02",

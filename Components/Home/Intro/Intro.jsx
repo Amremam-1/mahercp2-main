@@ -9,7 +9,7 @@ const Intro = () => {
 
   return (
     <>
-      <div className="dark:bg-dark secContainer">
+      <div className="dark:bg-dark secContainer bg-white">
         <div className={styles.container}>
           <div
             className={classNames(styles.intro, {

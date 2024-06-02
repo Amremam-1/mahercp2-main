@@ -81,7 +81,7 @@ const Opinions = () => {
     },
   }
   return (
-    <div className="dark:bg-dark secContainer">
+    <div className="dark:bg-dark secContainer bg-white">
       <div className={styles.container}>
         <div className={styles.left_info}>
           <Image

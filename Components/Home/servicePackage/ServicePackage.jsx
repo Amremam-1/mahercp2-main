@@ -13,7 +13,7 @@ const ServicePackage = () => {
   const [isHovered, setIsHovered] = useState(null)
 
   return (
-    <div className="dark:bg-dark secContainer">
+    <div className="dark:bg-dark secContainer bg-white">
       <div className={styles.container}>
         <div
           className={`${styles.box_one} dark:bg-card color85`}

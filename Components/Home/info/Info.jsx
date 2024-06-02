@@ -8,7 +8,7 @@ import classNames from "classnames"
 const Info = () => {
   const { t, locale } = useLocalization()
   return (
-    <div className="dark:bg-dark secContainer">
+    <div className="dark:bg-dark secContainer bg-white">
       <div className={styles.container}>
         <div className={styles.left_info}>
           <div className={styles.title}>

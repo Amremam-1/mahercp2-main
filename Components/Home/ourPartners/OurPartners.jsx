@@ -52,7 +52,7 @@ const OurPartners = () => {
     },
   }
   return (
-    <div className="dark:bg-dark secContainer">
+    <div className="dark:bg-dark secContainer bg-white">
       <div className={styles.container}>
         <div className={`${styles.Title} conTitle`}>
           <h2 className="dark:text-white">{t("ourPartners-01")}</h2>

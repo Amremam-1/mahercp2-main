@@ -1,0 +1,39 @@
+.translate {
+  position: relative;
+
+  .global {
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .selectedLanguage {
+    color: #fff;
+  }
+  .selectLanguage {
+    position: absolute;
+    top: calc(100% + 5px);
+    // background: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+
+    &.left {
+      left: 0;
+    }
+    &.right {
+      right: 0s;
+    }
+
+    .select {
+      font-weight: 600;
+    }
+    span {
+      width: 100%;
+      height: 1px;
+      background: $primary;
+    }
+  }
+}

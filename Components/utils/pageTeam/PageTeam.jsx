@@ -1,18 +1,31 @@
-import Image from "next/image";
-import styles from "./styles.module.scss";
-import Link from "next/link";
+
+import styles from "./styles.module.scss"
+import Link from "next/link"
+import { useLocalization } from "@/hooks/useLocalization"
 
 const PageTeam = ({ pageTitle, links }) => {
+  const { locale } = useLocalization()
   return (
     <section className={styles.pageHead}>
       <div className={styles.container}>
         <div className={styles.pageInfo}>
-          <h1 className={styles.title}>{pageTitle}</h1>
+          {pageTitle.map((item, index) => (
+            <h1 className={styles.title} key={index}>
+              {locale === "en" ? item.titleEn : item.titleAr}
+            </h1>
+          ))}
           <ul className={styles.linksList}>
             {links?.map((item, index) => (
-              <li className={links.length === index+1 ? styles.linkItemActive : styles.linkItem} key={index}>
+              <li
+                className={
+                  links.length === index + 1
+                    ? styles.linkItemActive
+                    : styles.linkItem
+                }
+                key={index}
+              >
                 <Link className={styles.link} href={item.link}>
-                  {item.titleAr}
+                  {locale === "en" ? item.titleEn : item.titleAr}
                 </Link>
               </li>
             ))}
@@ -20,7 +33,7 @@ const PageTeam = ({ pageTitle, links }) => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default PageTeam;
+export default PageTeam

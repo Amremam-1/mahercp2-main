@@ -131,7 +131,7 @@ const projects = [
 const MotionProjects = () => {
   const { t, locale } = useLocalization()
   return (
-    <div className="secContainer">
+    <div className="secContainer bg-white dark:bg-black">
       <div className={styles.container}>
         <div className={`${styles.Title} conTitle`}>
           <span>{t("details-02")}</span>

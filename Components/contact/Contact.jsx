@@ -10,7 +10,7 @@ import { useLocalization } from "@/hooks/useLocalization"
 const Contact = () => {
   const { t, locale } = useLocalization()
   return (
-    <div className="secContainer">
+    <div className="secContainer dark:bg-black bg-white">
       <div className={styles.container}>
         <div className={`${styles.Title} conTitle`}>
           <span>{t("contact-01")}</span>

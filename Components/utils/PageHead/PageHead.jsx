@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 import styles from "./styles.module.scss"
 import Link from "next/link"
 import { useLocalization } from "@/hooks/useLocalization"

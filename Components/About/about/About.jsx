@@ -1,12 +1,11 @@
 import styles from "./styles.module.scss"
-import { PiMedalLight } from "react-icons/pi"
-import Link from "next/link"
 import Image from "next/image"
 import { useLocalization } from "@/hooks/useLocalization"
+
 const About = () => {
   const { t, locale } = useLocalization()
   return (
-    <div className="secContainer">
+    <div className="secContainer bg-white dark:bg-black">
       <div className={styles.container}>
         <div className={styles.left_info}>
           <div className={styles.title}>
@@ -42,22 +41,6 @@ const About = () => {
             height={0}
             sizes="100vw"
           />
-          {/*
-          <div className={styles.img_two}>
-            <Link href={""}>
-              <Image
-                src={"/images/about1.jpg"}
-                alt=""
-                className={styles.image}
-                width={0}
-                height={0}
-                sizes="100vw"
-              />
-              <button className={`btn ${styles.contact}`}>
-                معرفة المزيد عنا
-              </button>
-            </Link>
-          </div> */}
         </div>
       </div>
     </div>

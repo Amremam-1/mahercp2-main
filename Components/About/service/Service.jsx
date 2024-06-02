@@ -12,7 +12,7 @@ const Service = () => {
   const { t } = useLocalization()
   
   return (
-    <div className="secContainer">
+    <div className="secContainer bg-white dark:bg-black">
       <div className={styles.container}>
         <div
           className={`${styles.box_one} color85 dark:bg-card`}

@@ -62,7 +62,7 @@ const projectContent = [
 const BoxService = () => {
   const { t, locale } = useLocalization()
   return (
-    <div className="secContainer">
+    <div className="secContainer bg-white dark:bg-black">
       <div className={styles.container}>
         <div className={`${styles.Title} conTitle`}>
           <h2 className="dark:text-white">{t("box-01")}</h2>

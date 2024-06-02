@@ -105,7 +105,7 @@ const CompletedProjects = () => {
   }
 
   return (
-    <section className={`${styles.section} color84`}>
+    <section className={`${styles.section} color84 bg-white`}>
       <div className="dark:bg-dark secContainer">
         <div className={styles.container}>
           <div>

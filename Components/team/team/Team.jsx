@@ -4,12 +4,12 @@ import MobileContant from "../mobile/MobileContant"
 
 const Team = () => {
   return (
-    <section className={styles.section}>
+    <section className={`${styles.section} dark:bg-black bg-white`}>
       <div className={styles.main_container}>
         <div className={styles.main_wrapper}>
           <div className={styles.honeycomb_right}>
-            <div className="honeycomb_cell">
-              <div className="honeycomb_title">
+            <div className={styles.honeycomb_cell}>
+              <div className={styles.honeycomb_title}>
                 <h3>
                   <span>MAHER</span> BIN NAIF
                 </h3>

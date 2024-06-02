@@ -5,6 +5,7 @@ import styles from "./styles.module.scss"
 import Link from "next/link"
 import { useLocalization } from "@/hooks/useLocalization"
 import classNames from "classnames"
+
 const navLinks = [
   {
     id: "01",

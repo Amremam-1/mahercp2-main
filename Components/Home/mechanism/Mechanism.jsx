@@ -55,7 +55,7 @@ const Mechanism = () => {
   const { t, locale } = useLocalization()
 
   return (
-    <div className="dark:bg-dark secContainer fixed">
+    <div className="dark:bg-dark secContainer fixed bg-white">
       <div className={styles.shape_circle}>
         <Image
           className={`${styles.image} dark:opacity-10`}

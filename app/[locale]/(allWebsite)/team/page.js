@@ -7,19 +7,26 @@ export default function TeamPage() {
       id: "01",
       link: "/",
       titleAr: "الرئيسية  /",
-      titleEn: "",
+      titleEn: "Main /",
     },
     {
       id: "02",
       link: "/",
       titleAr: "فريق العمل",
-      titleEn: "",
+      titleEn: "Team Work",
+    },
+  ]
+
+  const pageTitle = [
+    {
+      titleAr: "فريق العمل",
+      titleEn: "Team Work",
     },
   ]
 
   return (
     <main>
-      <PageTeam pageTitle="فريق العمل" links={linksList} />
+      <PageTeam pageTitle={pageTitle} links={linksList} />
       <Team />
     </main>
   )
